@@ -2,6 +2,7 @@
 
 # compiled output
 /tmp
+/docs
 
 # dependencies
 /node_modules
