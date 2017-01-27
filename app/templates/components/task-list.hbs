@@ -1,0 +1,9 @@
+<h3>Todos {{tasks.length}}</h3>
+
+<ul class="list-group">
+  {{#each tasks as |task|}}
+    <li class="list-group-item {{if task.isDone 'list-group-item-success'}}" {{action 'toggle' task}}>
+      {{task.title}}
+    </li>
+  {{/each}}
+</ul>
