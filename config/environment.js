@@ -40,7 +40,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.baseURL = 'ember-gh-pages/';
+    ENV.baseURL = '/ember-gh-pages';
   }
 
   return ENV;
