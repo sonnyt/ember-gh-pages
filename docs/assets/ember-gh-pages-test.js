@@ -260,7 +260,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("ember-gh-pages-test/app")["default"].create({"name":"ember-gh-pages-test","version":"0.0.0+2646620c"});
+  require("ember-gh-pages-test/app")["default"].create({"name":"ember-gh-pages-test","version":"0.0.0+38c86f88"});
 }
 
 /* jshint ignore:end */
